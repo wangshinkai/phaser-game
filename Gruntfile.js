@@ -5,8 +5,11 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
-    config: require('./config/config');
-    
+    config: require('./config/config'),
+    connect: require('./config/connect.js')
   });
+
+  grunt.registerTask('serve', ['connect:dev']);
+  grunt.registerTask('default', ['serve']);
 
 };

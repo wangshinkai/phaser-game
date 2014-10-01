@@ -1,0 +1,5 @@
+define([
+  'game',
+], function (game) {
+
+});
