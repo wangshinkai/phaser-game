@@ -1,6 +1,7 @@
 {
-  "name": "phaser-game",
+  "name": "phaser",
   "version": "0.0.0",
+  "homepage": "https://github.com/gengen1988/phaser-game",
   "authors": [
     "Gen Liu <alsorunning@gmail.com>"
   ],
