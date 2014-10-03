@@ -1,0 +1,9 @@
+CACHE MANIFEST
+# v1
+bower_components/phaser/build/phaser.js
+bower_components/requirejs/require.js
+
+NETWORK:
+*
+
+FALLBACK:
