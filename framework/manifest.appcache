@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# v1
+assets/gfx/bullet.png
+assets/gfx/block.png
+assets/gfx/ship.png
+assets/gfx/explosion.png
+assets/manifest.json
+js/vendor.js
+main.js
+
+NETWORK:
+*
+
+FALLBACK:

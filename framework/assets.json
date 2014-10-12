@@ -1,0 +1,53 @@
+{
+  "asteroid": [
+    {
+      "type": "spritesheet",
+      "key": "ship",
+      "url": "assets/gfx/ship.png",
+      "frameWidth": 32,
+      "frameHeight": 32
+    },
+    {
+      "type": "image",
+      "key": "bullet",
+      "url": "assets/gfx/bullet.png"
+    },
+    {
+      "type": "image",
+      "key": "rock",
+      "url": "assets/gfx/block.png"
+    },
+    {
+      "type": "spritesheet",
+      "key": "explosion",
+      "url": "assets/gfx/explosion.png",
+      "frameWidth": 128,
+      "frameHeight": 128
+    },
+    {
+      "type": "image",
+      "key": "gunfire",
+      "url": "assets/homebrew/gunfire.png"
+    },
+    {
+      "type": "audio",
+      "key": "fire",
+      "urls": ["assets/sfx/Zap_FX_007.ogg"]
+    },
+    {
+      "type": "audio",
+      "key": "hit",
+      "urls": ["assets/sfx/se_maoudamashii_retro12.ogg"]
+    },
+    {
+      "type": "audio",
+      "key": "explosion",
+      "urls": ["assets/sfx/se_maoudamashii_retro30.ogg"]
+    },
+    {
+      "type": "audio",
+      "key": "bgm",
+      "urls": ["assets/sfx/ouka_beni.mp3"]
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+# compiled and temp files
+.tmp
+dist
+
 # Logs
 logs
 *.log

@@ -1,5 +1,8 @@
 module.exports = {
-  app: 'app',
-  wrapper: 'wrapper',
-  dist: 'dist'
+  app: 'src',
+  assets: 'assets',
+  bower: 'bower_components',
+  dist: 'dist',
+  framework: 'framework',
+  temp: '.tmp'
 };

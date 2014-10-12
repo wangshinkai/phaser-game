@@ -9,12 +9,17 @@ module.exports = {
     options: {
       middleware: function (connect) {
         return [
-          connect.static(config.wrapper),
-          connect().use('/app', connect.static(config.app)),
-          connect().use('/app/bower_components', connect.static('./bower_components')),
-          connect().use('/bower_components', connect.static('./bower_components'))
+          connect.static(config.framework),
+          connect.static(config.app),
+          connect().use('/assets', connect.static(config.assets)),
+          connect().use('/bower_components', connect.static(config.bower))
         ];
       }
+    }
+  },
+  dist: {
+    options: {
+      base: '<%= config.dist %>'
     }
   }
 };
